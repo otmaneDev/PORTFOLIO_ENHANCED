@@ -6,6 +6,7 @@
 }
 .page1,ul,a{
     display: flex;
+    overflow: hidden;
 }
 nav{
     background: #F1FFF4;
@@ -475,6 +476,9 @@ footer{
 /*---responsive---*/
 
 @media(max-width:700px){
+    .page1,ul,a{
+    overflow: visible;
+    }
     body{
         background: #F1FFF4;
     }
